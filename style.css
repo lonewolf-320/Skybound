@@ -1,0 +1,46 @@
+/* Set Skybound-inspired background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: url('flappybird.jpg'); /* Link to your local background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the centered download box */
+.purchase-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 250px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+.gumroad-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1e90ff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.gumroad-button:hover {
+    background-color: #0073e6;
+}
